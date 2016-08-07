@@ -1,0 +1,21 @@
+.tooltip-scatter-box {
+	width: 320px;
+	white-space: normal;
+}
+
+.tooltip-scatter-box h4 {
+	margin-left: 5px;
+}
+
+.loading-text {
+	text-align: center;
+	height: 450px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}

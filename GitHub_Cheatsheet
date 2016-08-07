@@ -1,0 +1,44 @@
++-----------------------+
+| Basic GitHub Commands |
++-----------------------+
+
+=====================================
+Get the status of your working branch
+=====================================
+git status
+
+================================================
+Add files with changes (tracked files) to commit
+================================================
+git add -u
+
+====================================
+Add all new/modified files to commit
+====================================
+git add -A
+
+==============================
+Commit Changes (shorthand)
+==============================
+git commit -m "<commit message>"
+
+==========================
+Push changes to repository
+==========================
+git push origin <branch-name>
+
+===============================
+Create and change to new branch
+===============================
+git checkout -b <branch-name>
+
+==================
+Switch to a branch
+==================
+git checkout <branch-name>
+
+=======================================================
+Reset a branch to whats on GitHub (reset local changes)
+=======================================================
+git reset --hard <branch-name>
+git pull

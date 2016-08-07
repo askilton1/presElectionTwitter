@@ -1,0 +1,20 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+application: "politweets-1363"
+version: "v1"
+
+handlers:
+- url: /
+  script: main.app
+
+- url: /user
+  script: main.app
+
+- url: /user/.*
+  script: main.app
+
+libraries:
+- name: MySQLdb
+  version: "latest"
